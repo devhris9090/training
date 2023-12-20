@@ -1,10 +1,19 @@
 <?php
-$nip                        = '';
+// $nip                        = '';
+// if (!isset($_COOKIE["StrixscarII"])) {
+//        $account_name               = '';
+//        $display_account_no         = 'display:flex;';
+// } else {
+//        $account_name               = $_COOKIE["StrixscarII"];
+//        $display_account_no         = 'display:none;';
+// }
+
+$nip_mana                        = '';
 if (!isset($_COOKIE["StrixscarII"])) {
-       $account_name               = '';
+       $account_name_mana               = '';
        $display_account_no         = 'display:flex;';
 } else {
-       $account_name               = $_COOKIE["StrixscarII"];
+       $account_name_mana               = $_COOKIE["StrixscarII"];
        $display_account_no         = 'display:none;';
 }
 ?>
